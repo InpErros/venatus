@@ -4,15 +4,54 @@
     padding: 0;
     box-sizing: border-box;
   }
-
-
-.PrompWindow {
-    background-color: #1a1a2e;
-    color: #f2f2f2;
+  
+  /* Global styles */
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #303030; /* dark gray */
+    color: #f2f2f2; /* light gray */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
     padding: 1rem;
-    border-radius: 0.5rem;
-    margin: 1rem;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #3d3d3d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+
 
 .SubmitButton {
     background-color: #1a1a2e;
@@ -23,3 +62,73 @@
     font-size: 1rem;
     cursor: pointer;
 }
+
+  /* A prompt window with a dark blue background */
+  .PromptWindow {
+    background-color: #1a1a2e; /* dark blue */
+    color: #f2f2f2; /* light gray */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+  }
+  
+  /* Input field styles */
+  input[type=text], textarea {
+    background-color: #606060; /* medium gray */
+    color: #f2f2f2; /* light gray */
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Submit button styles */
+  button[type=submit] {
+    background-color: #1a1a2e; /* dark blue */
+    color: #f2f2f2; /* light gray */
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  
+  .PromptWindow h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .PromptWindow p {
+    margin-bottom: 1rem;
+  }
+  
+  .PromptWindow form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .PromptWindow form input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+  }
+  
+  .PromptWindow form button[type="submit"] {
+    background-color: #2c2c54;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .PromptWindow form button[type="submit"]:hover {
+    background-color: #5c5c84;
+  }
+  
