@@ -1,0 +1,25 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.PrompWindow {
+    background-color: #1a1a2e;
+    color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.SubmitButton {
+    background-color: #1a1a2e;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
