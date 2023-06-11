@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "prompt_title": "Prompt 1",
+      "prompt_body": "body",
+      "points": 5,
+      "completed": false,
+      "required": false,
+      "req_ids": []
+    },
+    {
+
+    }
+]

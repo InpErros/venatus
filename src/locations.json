@@ -1,0 +1,100 @@
+[
+    {
+      "id": 1,
+      "pathname": "introduction",
+      "name": "Introduction (Lot 16)",
+      "description": "This is the Introduction Location",
+      "unlocked": true,
+      "prompts": [
+        {
+            "id": 1,
+            "title": "Prompt 1",
+            "body": "body",
+            "answer": "answer",
+            "points": 5,
+            "completed": false,
+            "required": false,
+            "req_ids": []
+        }]
+    },
+    {
+        "id": 2,
+        "pathname": "broadway",
+        "name": "Broadway St",
+        "description": "This is location 2",
+        "unlocked": false,
+        "prompts": []
+    },
+    {
+        "id": 3,
+        "pathname": "ocean",
+        "name": "Ocean Ave",
+        "description": "This is location 2",
+        "unlocked": false,
+        "prompts": []
+    },
+    {
+        "id": 4,
+        "pathname": "forest",
+        "name": "Forest Ave",
+        "description": "This is location 2",
+        "unlocked": false,
+        "prompts": []
+    },
+    {
+        "id": 5,
+        "pathname": "mainbeach",
+        "name": "Main Beach",
+        "description": "This is location 2",
+        "unlocked": false,
+        "prompts": []
+    },
+    {
+        "id": 6,
+        "pathname": "park",
+        "name": "Heisler Park",
+        "description": "This is location 2",
+        "unlocked": false,
+        "prompts": []
+    },
+    {
+        "id": 7,
+        "pathname": "lot11",
+        "name": "Lot 11",
+        "description": "This is location 2",
+        "unlocked": false,
+        "prompts": []
+    },
+    {
+        "id": 8,
+        "pathname": "lot5",
+        "name": "Lot 5",
+        "description": "This is location 2",
+        "unlocked": false,
+        "prompts": []
+    },
+    {
+        "id": 9,
+        "pathname": "galleries",
+        "name": "PCH Art Galleries",
+        "description": "This is location 2",
+        "unlocked": false,
+        "prompts": []
+    },
+    {
+        "id": 10,
+        "pathname": "shopping",
+        "name": "PCH Shopping",
+        "description": "This is location 2",
+        "unlocked": false,
+        "prompts": []
+    },
+    {
+    "id": 11,
+    "pathname": "alisobeach",
+    "name": "Aliso Beach",
+    "description": "This is location 2",
+    "unlocked": false,
+    "prompts": []
+    }
+]

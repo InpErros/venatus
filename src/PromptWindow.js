@@ -1,22 +1,23 @@
 import './PromptWindow.css'
 
-// Builder Functions
-
-function SubmitButton() {}
-
-function PromptTitle() {}
-
-function Prompt() {}
-
-function TextField() {}
-
-// Main Function
-
-function window() {
+function SubmitButton() {
     return (
-        // To fill
-        <None></None>
-    )
-}
-
-export default window
+      <div>
+        <button type='submit'>Submit</button>
+      </div>
+    );
+  }
+  
+  export default function PromptWindow({title, prompt}) {
+    return (
+      <div className='PromptWindow'>
+        <h2>{title}</h2>
+          <form>
+              <label for="prompt1">{prompt}</label>
+              <input type="text" id="prompt1" name="prompt1" required></input>
+              <SubmitButton />
+          </form>
+        
+      </div>
+    );
+  }
