@@ -15,6 +15,16 @@
             "completed": false,
             "required": false,
             "req_ids": []
+        },
+        {
+            "id": 2,
+            "title": "Prompt 2",
+            "body": "description of the prompt that is detailed and creative and puzzling",
+            "answer": "time",
+            "points": 5,
+            "completed": false,
+            "required": false,
+            "req_ids": []
         }]
     },
     {

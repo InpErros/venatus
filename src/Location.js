@@ -10,7 +10,7 @@ function Prompts({prompts}) {
             <ul>
                 {prompts.map((prompt) => (
                     <li key={prompt.id}>
-                        <PromptWindow title={prompt.title} prompt={prompt.body} />
+                        <PromptWindow prompt={prompt} />
                     </li>
                 ))}
             </ul>

@@ -81,3 +81,27 @@ button[type=submit] {
 .NavButton nav button[type='button']:hover {
   background-color: #5c5c84;
 }
+
+.reset-button {
+  background-color: #2c2c54; /* dark blue */
+  color: #f2f2f2; /* light gray */
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.3rem 0.6rem; /* Adjust the padding for smaller size */
+  font-size: 0.9rem; /* Adjust the font size for smaller size */
+  cursor: pointer;
+  width: 3%;
+}
+
+.reset-button:hover {
+  background-color: #5c5c84;
+}
+
+
+.c {
+  color: #33cc332e;
+  color: #ff6666;
+  color: #1a1a2e;
+
+}
+

@@ -1,8 +1,8 @@
 import './App.css';
 import { Link, Outlet } from 'react-router-dom'
-import { Header, Footer} from './Parts'
+import { Header, Footer, SelectionPopup} from './Parts'
 import locations from './locations.json'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 function TitleHeader() {
   return(
@@ -98,11 +98,25 @@ function Info() {
 
 
 export default function App() {
+  const [showPopup, setShowPopup] = useState(false)
+  const [team, setTeam] = useState('')
+
+  useEffect(() => {
+    const teamSelected = localStorage.getItem('selectedTeam')
+    if(!teamSelected){
+      setShowPopup(true)
+    }
+    setTeam(teamSelected)
+  }, [])
+
+
+
   return (
     <div>
+      <SelectionPopup isTeamSelected={showPopup} />
       <TitleHeader />
       <Info />
-      <Footer />
+      <Footer team={team}/>
     </div>
   );
 }
